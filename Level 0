@@ -1,0 +1,10 @@
+Given,
+
+Host: bandit.labs.overthewire.org
+Port: 2220
+Username: bandit0
+Password: bandit0
+
+Command to connect with the host using ssh:
+
+ssh bandit0@bandit.labs.overthewire.org -p 2220
