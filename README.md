@@ -6,7 +6,7 @@ I'll be seen here solving the levels one after another with a very clear objecti
 ## Level 0
 Goal: Logging into the game using SSH.
 
-Given,
+Given,<br>
 Host: bandit.labs.overthewire.org<br>
 Port: 2220<br>
 Username: bandit0<br>
