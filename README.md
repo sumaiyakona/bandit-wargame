@@ -25,3 +25,15 @@ Goal: Reading 'dashed filename'.
 In this case, the option '<' before the dash (-) file is needed to specify: `cat < -` or `cat <-`.
 
 ## Level 2 → Level 3
+Goal: Reading files named with 'spaces'
+
+To read any file with spaces, just lock it with an apostrophe as shown: `cat 'spaces in this filename'`. Putting backslash before each works as well: `cat spaces\ in\ this\ filename`.
+
+## Level 3 → Level 4
+Goal: Reading from a hidden file.
+
+What we need to know in here is, hidden files typically start with a dot(.) and as a result cannot be seen with the `ls` command. To see hidden files in linux, `-a` switch is used. Hence, typing `ls -la` to view all the hidden files and rest will be the following: `cat .hidden`.
+
+## Level 4 → Level 5
+Goal: Spotting human readable files.
+
