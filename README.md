@@ -37,3 +37,9 @@ What we need to know in here is, hidden files typically start with a dot(.) and 
 ## Level 4 → Level 5
 Goal: Spotting human readable files.
 
+Note: human-readable file means a file with only ASCII text in this context which we can clearly see in the screenshot below when used the command `file ./-file*`.
+<img width="859" alt="Screenshot 2024-01-30 at 10 29 05 pm" src="https://github.com/sumaiyakona/bandit-wargame/assets/31168741/ef7df512-589e-47df-b371-c9eca0e0bbaa">
+
+Now simply read the file `cat ./-file07`
+
+
