@@ -44,7 +44,7 @@ Note: human-readable file means a file with only ASCII text in this context whic
 Now simply read the file `cat ./-file07`
 
 ## Level 5 → Level 6
-Goal: Finding a targeted file given a set of properties, by using the find command. So, the password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+Goal: Finding a targeted file given a set of properties, by using the find command. So, the password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:<br>
 **human-readable<br>
 1033 bytes in size<br>
 not executable<br>**
