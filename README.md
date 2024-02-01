@@ -45,9 +45,9 @@ Now simply read the file `cat ./-file07`
 
 ## Level 5 → Level 6
 Goal: Finding a targeted file given a set of properties, by using the find command. So, the password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
-**human-readable
-1033 bytes in size
-not executable**
+**human-readable<br>
+1033 bytes in size<br>
+not executable<br>**
 
 Therefore, the command to find the targeted file `find -type f -readable ! -executable -size 1033c` & then `cat maybehere07/.file2`.
 
