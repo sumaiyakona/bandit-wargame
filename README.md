@@ -38,8 +38,18 @@ What we need to know in here is, hidden files typically start with a dot(.) and 
 Goal: Spotting human readable files.
 
 Note: human-readable file means a file with only ASCII text in this context which we can clearly see in the screenshot below when used the command `file ./-file*`.
+
 <img width="859" alt="Screenshot 2024-01-30 at 10 29 05 pm" src="https://github.com/sumaiyakona/bandit-wargame/assets/31168741/ef7df512-589e-47df-b371-c9eca0e0bbaa">
 
 Now simply read the file `cat ./-file07`
 
+## Level 5 → Level 6
+Goal: Finding a targeted file given a set of properties, by using the find command. So, the password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+**human-readable
+1033 bytes in size
+not executable**
+
+Therefore, the command to find the targeted file `find -type f -readable ! -executable -size 1033c` & then `cat maybehere07/.file2`.
+
+## Level 6 → Level 7
 
