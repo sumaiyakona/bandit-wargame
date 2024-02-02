@@ -1,4 +1,4 @@
-# bandit-wargame
+# OverTheWire_bandit-wargame
 **Bandit** is one of the wargames focusing on linux basics for beginners such as ssh, telnet, cronjob and many more by the brillint **Over The Wire** team; can be found: https://overthewire.org/wargames/bandit/bandit0.html in here.<br>
 
 I'll be seen here solving the levels one after another with a very clear objective leart with solving each one of them. Let's start!<br>
