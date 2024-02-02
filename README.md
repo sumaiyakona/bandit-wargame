@@ -53,3 +53,15 @@ Therefore, the command to find the targeted file `find -type f -readable ! -exec
 
 ## Level 6 → Level 7
 
+Goal: Finding a targeted file given a set of properties, by using the find command (similar to previous one, except with a different set of search criteria).
+
+The password for the next level is stored somewhere on the server and has all of the following properties:<br>
+**owned by user bandit7<br>
+owned by group bandit6<br>
+33 bytes in size<br>**
+
+Note: Since it is stated that the password is stored somewhere on the server, we must first navigate to the root folder. `cd ..` twice from the home directory, and then pwd to verify that we are in the root directory. We should only see the slash ('/') character from running pwd and then type `find -user bandit7 -group bandit6 -size 33c`
+    
+Note: There are a lot of files which match the given property, but all of these files (except one) cannot be accessed, as seen from the string of "Permission denied" messages displayed. Only one search result does not have this message and that's the following one:<br>
+    
+    File: /var/lib/dpkg/info/bandit7.password
