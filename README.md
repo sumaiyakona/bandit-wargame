@@ -65,3 +65,13 @@ Note: Since it is stated that the password is stored somewhere on the server, we
 Note: There are a lot of files which match the given property, but all of these files (except one) cannot be accessed, as seen from the string of "Permission denied" messages displayed. Only one search result does not have this message and that's the following one:<br>
     
     File: /var/lib/dpkg/info/bandit7.password
+
+Finally, `cat /var/lib/dpkg/info/bandit7.password`.
+
+## Level 7 → Level 8
+## Level 8 → Level 9
+## Level 9 → Level 10
+## Level 11 → Level 12
+## Level 12 → Level 13
+## Level 13 → Level 14
+## Level 14 → Level 15
