@@ -69,7 +69,20 @@ Note: There are a lot of files which match the given property, but all of these 
 Finally, `cat /var/lib/dpkg/info/bandit7.password`.
 
 ## Level 7 → Level 8
+
+Goal: Searching for a specific word within a file, by using the grep command.
+
+The password for the next level is stored in the file data.txt next to the word millionth.
+So, the command should be `grep millionth data.txt` & voila!
+    
 ## Level 8 → Level 9
+
+Goal: Searching within a file given a set of criteria, by using the sort and uniq commands, in addition to piping within the terminal.
+
+The password for the next level is stored in the file data.txt and is the only line of text that occurs only once.
+In this case, `cat data.txt | sort | uniq -u`
+Note: -u argument indicates to print only the unique lines.
+    
 ## Level 9 → Level 10
 ## Level 11 → Level 12
 ## Level 12 → Level 13
