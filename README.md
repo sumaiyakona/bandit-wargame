@@ -80,11 +80,26 @@ So, the command should be `grep millionth data.txt` & voila!
 Goal: Searching within a file given a set of criteria, by using the sort and uniq commands, in addition to piping within the terminal.
 
 The password for the next level is stored in the file data.txt and is the only line of text that occurs only once.
-In this case, `cat data.txt | sort | uniq -u`
-Note: -u argument indicates to print only the unique lines.
+In this case, `cat data.txt | sort | uniq -u`; -u argument indicates to print only the unique lines.
     
 ## Level 9 → Level 10
+
+Goals: Searching for strings within a file that does not contain only ASCII characters, by using the strings and grep command.
+
+The password for the next level is stored in the file data.txt in one of the few human-readable strings, beginning with several ‘=’ characters.
+Note: file data.txt tells us that the file is a data file, and does not contain only ASCII text. Hence, it was mentioned that there are only a few human-readable strings which is why the command should be `strings data.txt | grep ===`
+    
 ## Level 11 → Level 12
+
+Goals: Learning to decode base64 encoded data, using the base64 command.
+The password for the next level is stored in the file data.txt, which contains base64 encoded data.
+So, simply it is `base64 -d data.txt`; -d argument indicates decoding of data.
+    
 ## Level 12 → Level 13
+
+Goals: Learning to transform strings, using the tr command.
+The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions. So, the command is `cat data.txt | tr A-Za-z N-ZA-Mn-za-m`
+Note: Inverted commas or square brackets around the parameters of the tr command are not required.
+    
 ## Level 13 → Level 14
 ## Level 14 → Level 15
