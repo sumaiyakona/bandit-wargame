@@ -92,12 +92,14 @@ Note: file data.txt tells us that the file is a data file, and does not contain 
 ## Level 11 → Level 12
 
 Goals: Learning to decode base64 encoded data, using the base64 command.
+
 The password for the next level is stored in the file data.txt, which contains base64 encoded data.
 So, simply it is `base64 -d data.txt`; -d argument indicates decoding of data.
     
 ## Level 12 → Level 13
 
 Goals: Learning to transform strings, using the tr command.
+
 The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions. So, the command is `cat data.txt | tr A-Za-z N-ZA-Mn-za-m`
 Note: Inverted commas or square brackets around the parameters of the tr command are not required.
     
